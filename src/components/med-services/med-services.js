@@ -7,7 +7,7 @@ const MedServices = () => {
     return (
         <section className="services">
             <div className="row">
-                <div className="col-md-4">
+                <div className="col col-md-4">
                     <div className="services_card">
                         <div className="round">
                             <img src={cardiogram} alt="cardiogram-icon" />
@@ -17,7 +17,7 @@ const MedServices = () => {
                         <div className="descr">Рыба текст</div>
                     </div>
                 </div>
-                <div className="col-md-4">
+                <div className="col col-md-4">
                     <div className="services_card">
                         <div className="round">
                             <img src={stethoscope} alt="stethoscope-icon" />
@@ -27,7 +27,7 @@ const MedServices = () => {
                         <div className="descr">Рыба текст</div>
                     </div>
                 </div>
-                <div className="col-md-4">
+                <div className="col col-md-4">
                     <div className="services_card">
                         <div className="round">
                             <img src={chart} alt="chart-icon" />

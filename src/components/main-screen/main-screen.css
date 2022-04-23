@@ -6,7 +6,7 @@
     margin: 0;
     margin-left: 5px;
     font-weight: 700;
-    font-size: 58px;
+    font-size: 55px;
     line-height: 80px;
     letter-spacing: 0.2px;
     color: #252B42;
@@ -38,4 +38,28 @@
     line-height: 22px;
     letter-spacing: 0.2px;
     color: #FF685B;
+}
+@media(max-width: 1200px) {
+    .main_screen .title {
+        font-size: 48px;
+        line-height: 70px;
+    }
+}
+@media(max-width: 992px) {
+    .main_screen .title {
+        font-size: 35px;
+        line-height: 60px;
+    }
+}
+@media(max-width: 576px) {
+    .main_screen {
+        margin-top: 37px;
+        padding: 18.5px 0;
+    }
+    .main_screen .title {
+        margin-left: 0px;
+        letter-spacing: 0;
+        font-size: 28px;
+        line-height: 39px;
+    }
 }
