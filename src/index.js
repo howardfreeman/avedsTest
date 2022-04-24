@@ -1,17 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Header from './components/header/header';
-import MainScreen from './components/main-screen/main-screen';
-import MedServices from './components/med-services/med-services';
+import App from './components/app/app';
 import './index.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Header/>
-    <div className="container">
-      <MainScreen/>
-      <MedServices/>
-    </div>
+    <App/>
   </React.StrictMode>
 );
